@@ -9,17 +9,68 @@
     />
     <style>
       body {
-        font-family: Verdana, sans-serif;
+        font-family: Arial, sans-serif;
+        font-size: 100%;
+        line-height: 1.75em;
       }
       h1 {
-        font-family: "Marko one", Georgia, serif;
+        font: bold 2em "Marko one", Georgia, serif;
+        color: olive;
+        text-shadow: 0.05em 0.05em 0.1em lightslategray;
+      }
+      h2 {
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        color: olive;
+      }
+      dt {
+        font-weight: bold;
+      }
+      strong {
+        font-style: italic;
+      }
+      dt strong {
+        color: tomato;
+      }
+      #info p {
+        font-style: italic;
+        color: gray;
+      }
+      .price {
+        font-family: Georgia, serif;
+        font-style: italic;
+        color: gray;
+      }
+      .label {
+        font-weight: bold;
+        font-variant: small-caps;
+        font-style: normal;
+      }
+      p.warning,
+      sup {
+        font-size: small;
+        color: red;
+      }
+      h1,
+      h2,
+      #info {
+        text-align: center;
+      }
+      h2 + p {
+        text-align: center;
+        font-style: italic;
+      }
+      dt {
+        font-weight: bold;
+        color: sienna;
       }
     </style>
   </head>
 
   <body>
     <div id="info">
-      <h1>Black Goose Bistro &bull; Summer Menu</h1>
+      <h1 class="bistro-header">Black Goose Bistro &bull; Summer Menu</h1>
 
       <p>
         Baker's Corner, Seekonk, Massachusetts<br />
